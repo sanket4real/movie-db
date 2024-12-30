@@ -1,9 +1,9 @@
 import { Box, Image, Text } from "@chakra-ui/react";
 import { Movie } from "../types/movie";
 
-type Props = {
+interface Props {
 	movie: Movie;
-};
+}
 
 export const MovieCard = ({ movie }: Props) => {
 	return (
@@ -27,7 +27,9 @@ export const MovieCard = ({ movie }: Props) => {
 				<Text fontSize="xl" fontWeight="bold">
 					{movie.title}
 				</Text>
-				<Text color="gray.600">{new Date(movie.release_date).getFullYear()}</Text>
+				<Text color="gray.600">
+					{movie.release_date ? new Date(movie.release_date).getFullYear() : "N/A"}
+				</Text>
 			</Box>
 		</Box>
 	);

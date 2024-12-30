@@ -47,8 +47,15 @@ const Home = () => {
 	return (
 		<Container>
 			<SearchBar onSearch={handleSearch} />
-			<Container className="movies-list">
-				<Grid templateColumns="repeat(3, 1fr)" gap="6">
+			<Container className="movies-list" mt={6}>
+				<Grid
+					templateColumns={[
+						"repeat(1, 1fr)",
+						"repeat(2, 1fr)",
+						"repeat(3, 1fr)",
+						"repeat(4, 1fr)",
+					]}
+					gap={["4", "5", "6"]}>
 					{movies.map((movie, index) => (
 						<GridItem
 							key={movie.id}

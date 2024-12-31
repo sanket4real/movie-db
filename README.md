@@ -1,5 +1,9 @@
 # Movie Browser Application
 
+## check out the live demo here:
+
+[https://movie-browser-app.vercel.app/](https://sankets-movie-db.netlify.app/)
+
 ## Setup and Installation
 
 1. Clone the repository
@@ -11,8 +15,6 @@
 ## Features
 
 - Movie search with infinite scrolling
-- Favorite movies functionality with local storage
-- Advanced filtering options
 - Responsive design
 - Accessibility features
 - Light / Dark mode toggle
@@ -32,3 +34,5 @@
 3. Add error boundaries
 4. Implement caching strategies
 5. Add movie details page
+6. Advanced filtering options
+7. Favorite movies functionality with local storage

@@ -31,9 +31,9 @@ const SearchBar = ({
 			alignItems="center"
 			gap={[2, 3, 4]}
 			p={[2, 3, 4]}>
-			<label htmlFor="search-input" className="sr-only">
+			{/* <label htmlFor="search-input" className="sr-only">
 				Search for a movie
-			</label>
+			</label> */}
 			<Input
 				id="search-input"
 				type="text"

@@ -10,7 +10,10 @@ const Navbar = () => {
 		<Flex as="nav" p="4" bg={bgColor} color={textColor} alignItems="center">
 			<Box>
 				<Heading size="md">
-					<Link to="/">Movie DB</Link>
+					<Link to="/">
+						{" "}
+						<Heading size="2xl">Movie DB</Heading>
+					</Link>
 				</Heading>
 			</Box>
 			<Spacer />

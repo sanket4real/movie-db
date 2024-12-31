@@ -1,16 +1,13 @@
 import { Link } from "react-router-dom";
 import { Flex, Box, Heading, Spacer } from "@chakra-ui/react";
 import ThemeToggle from "./ThemeToggle";
-import { useColorMode } from "./ui/color-mode";
+import { useColorModeValue } from "./ui/color-mode";
 
 const Navbar = () => {
+	const bgColor = useColorModeValue("gray.100", "gray.800");
+	const textColor = useColorModeValue("black", "white");
 	return (
-		<Flex
-			as="nav"
-			p="4"
-			bg={useColorMode()}
-			color={useColorMode()}
-			alignItems="center">
+		<Flex as="nav" p="4" bg={bgColor} color={textColor} alignItems="center">
 			<Box>
 				<Heading size="md">
 					<Link to="/">Movie DB</Link>

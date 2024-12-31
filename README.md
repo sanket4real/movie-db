@@ -2,7 +2,7 @@
 
 ## check out the live demo here:
 
-[https://movie-browser-app.vercel.app/](https://sankets-movie-db.netlify.app/)
+[https://movie-browser-app.vercel.app/](https://movie-db-three-plum.vercel.app/)
 
 ## Setup and Installation
 

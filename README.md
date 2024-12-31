@@ -18,6 +18,7 @@
 - Responsive design
 - Accessibility features
 - Light / Dark mode toggle
+- Favorite movies functionality with local storage
 
 ## Technical Decisions
 
@@ -35,4 +36,3 @@
 4. Implement caching strategies
 5. Add movie details page
 6. Advanced filtering options
-7. Favorite movies functionality with local storage
